@@ -8,7 +8,7 @@ export default function Header() {
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
 
                     {/* Logo */}
-                    <Link to="/" className="flex items-center">
+                    <Link to="https://react-router-project-inky.vercel.app/" className="flex items-center">
                         <img
                             src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
                             className="mr-3 h-12"
@@ -37,7 +37,7 @@ export default function Header() {
                         <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                             <li className="flex gap-4">
                                 <NavLink
-                                to="/"
+                                to="https://react-router-project-inky.vercel.app/"
                                     className={({isActive}) =>
                                         `${isActive ? "text-orange-700": "text-gray-700"} block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-green-700 lg:p-0`
                                     }
@@ -46,7 +46,7 @@ export default function Header() {
                                 </NavLink>
 
                                 <NavLink
-                                to="/about"
+                                to="https://react-router-project-inky.vercel.app/about"
                                     className={({isActive}) =>
                                         `${isActive ? "text-orange-700": "text-gray-700"} block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-green-700 lg:p-0`
                                     }
@@ -55,7 +55,7 @@ export default function Header() {
                                 </NavLink>
 
                                 <NavLink
-                                to="/contact"
+                                to="https://react-router-project-inky.vercel.app/contact"
                                     className={({isActive}) =>
                                         `${isActive ? "text-orange-700": "text-gray-700"} block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-green-700 lg:p-0`
                                     }
@@ -64,7 +64,7 @@ export default function Header() {
                                 </NavLink>                              
 
                                 <NavLink
-                                to="/github"
+                                to="https://react-router-project-inky.vercel.app/github"
                                     className={({isActive}) =>
                                         `${isActive ? "text-orange-700": "text-gray-700"} block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-green-700 lg:p-0`
                                     }

@@ -8,7 +8,7 @@ export default function Footer() {
           <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
               <div className="md:flex md:justify-between">
                   <div className="mb-6 md:mb-0">
-                      <Link to="/" className="flex items-center">
+                      <Link to="https://react-router-project-inky.vercel.app/" className="flex items-center">
                           <img
                               src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
                               className="mr-3 h-16"
@@ -23,21 +23,21 @@ export default function Footer() {
 
                             {/* Home */}
                               <li className="mb-4">
-                                  <Link to="/" className="hover:underline">
+                                  <Link to="https://react-router-project-inky.vercel.app/" className="hover:underline">
                                       Home
                                   </Link>
                               </li>
 
                               {/* About */}
                               <li className="mb-4">
-                                  <Link to="/about" className="hover:underline">
+                                  <Link to="https://react-router-project-inky.vercel.app/about" className="hover:underline">
                                       About
                                   </Link>
                               </li>
 
                               {/* Contact Us */}
                               <li>
-                                  <Link to="/contact" className="hover:underline">
+                                  <Link to="https://react-router-project-inky.vercel.app/contact" className="hover:underline">
                                       Contact Us
                                   </Link>
                               </li>
@@ -68,7 +68,7 @@ export default function Footer() {
                               </li>
                               
                               <li>
-                                  <Link to="/" className="hover:underline">
+                                  <Link to="https://react-router-project-inky.vercel.app/" className="hover:underline">
                                       Instagram
                                   </Link>
                               </li>
@@ -175,7 +175,7 @@ export default function Footer() {
                                   clip-rule="evenodd"
                               />
                           </svg>
-                          <span className="sr-only">Dribbble account</span>
+                          <span className="sr-only">Dribble account</span>
                       </Link>
                   </div>
               </div>
