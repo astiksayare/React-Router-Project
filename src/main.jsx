@@ -11,7 +11,7 @@ import Github from './Components/GitHub/Github.jsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='https://react-router-project-inky.vercel.app/' element = {<App />}>
+    <Route path='/' element = {<App />}>
       <Route path='' element = {<Home />} />
       <Route path='about' element = {<About />}/>
       <Route path='contact' element = {<Contact />}/>
